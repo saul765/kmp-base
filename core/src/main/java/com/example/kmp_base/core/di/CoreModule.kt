@@ -30,9 +30,5 @@ object CoreModule {
         FirebaseModule.module
     )
 
-    private val utilsModule = listOf(
-        UtilsModule.module
-    )
-
-    val coreModules = networkModule + coreModule + coroutineModule + firebaseModule + utilsModule
+    val coreModules = networkModule + coreModule + coroutineModule + firebaseModule
 }

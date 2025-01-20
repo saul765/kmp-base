@@ -1,11 +1,23 @@
 package com.example.kmp_base.di
 
-import org.koin.dsl.module
-
 object CommonModule {
 
-    val useCasesModule = module { }
+    private val useCasesModule = listOf(
+        UseCasesModule.module
+    )
+
+    private val webServiceModule = listOf(
+        WebServiceModule.module
+    )
+
+    private val repositoriesModule = listOf(
+        RepositoriesModule.module
+    )
+
+    private val utilsModule = listOf(
+        UtilsModule.module
+    )
 
 
-    val sharedModules = useCasesModule + listOf()
+    val sharedModules = useCasesModule + utilsModule + webServiceModule + repositoriesModule
 }

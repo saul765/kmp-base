@@ -1,6 +1,6 @@
-package com.example.kmp_base.core.di
+package com.example.kmp_base.di
 
-import com.example.kmp_base.core.utils.json.JsonUtils
+import com.example.kmp_base.json.JsonUtils
 import org.koin.dsl.module
 
 object UtilsModule {

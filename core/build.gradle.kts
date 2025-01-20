@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.kotlinxSerialization)
     alias(libs.plugins.compose.compiler)
-    alias(libs.plugins.kapt)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -52,6 +52,7 @@ fun getGradleLocalProperties() = Properties().apply {
 
 dependencies {
 
+    implementation(project(":shared"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
