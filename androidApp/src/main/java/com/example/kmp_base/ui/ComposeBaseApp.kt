@@ -36,7 +36,7 @@ fun ComposeBaseApp(navigationState: ComposeBaseNavigationState, uiState: AppUiSt
 
     val snackBarHostState = remember { SnackbarHostState() }
 
-    val offlineModeMessage = stringResource(com.example.kmp_base.core.R.string.offline_mode_message)
+    val offlineModeMessage = stringResource(R.string.offline_mode_message)
 
     val onlineModeMessage = stringResource(R.string.online_mode_message)
 
