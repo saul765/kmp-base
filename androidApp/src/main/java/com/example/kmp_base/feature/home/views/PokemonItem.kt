@@ -27,11 +27,11 @@ import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import coil3.request.crossfade
-import com.example.core.model.uiModel.PokemonItemUIModel
-import com.example.composebase.core.utils.FormatUtils
-import com.example.composebase.core.utils.capitalize
 import com.example.composebase.ui.theme.ComposeBaseTheme
 import com.example.composebase.ui.theme.PokemonCardBackgroundColor
+import com.example.kmp_base.core.model.uiModel.PokemonItemUIModel
+import com.example.kmp_base.core.utils.FormatUtils
+import com.example.kmp_base.core.utils.capitalize
 
 @Composable
 fun PokemonItem(

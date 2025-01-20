@@ -18,14 +18,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.composebase.core.utils.capitalize
-import com.example.core.ZERO_INTEGER
-import com.example.core.base.screen.BaseScreen
-import com.example.core.base.state.rememberDialogState
-import com.example.core.data.UIStateStatus
-import com.example.core.design_system.BaseLottieAnimation
-import com.example.core.design_system.BasePermission
-import com.example.core.utils.extensions.goToAppSettings
+import com.example.kmp_base.core.ZERO_INTEGER
+import com.example.kmp_base.core.base.screen.BaseScreen
+import com.example.kmp_base.core.base.state.rememberDialogState
+import com.example.kmp_base.core.data.UIStateStatus
+import com.example.kmp_base.core.design_system.BaseLottieAnimation
+import com.example.kmp_base.core.design_system.BasePermission
+import com.example.kmp_base.core.utils.capitalize
+import com.example.kmp_base.core.utils.extensions.goToAppSettings
 import com.example.kmp_base.feature.home.state.HomeUiState
 import com.example.kmp_base.feature.home.views.HomeView
 import com.example.kmp_base.feature.home.views.PokemonTopBar
@@ -84,7 +84,7 @@ fun HomeScreen(onSearchClick: () -> Unit = {}) {
             BasePermission(
                 dialogState = dialogState,
                 state = permissionState,
-                rationale = stringResource(com.example.core.R.string.pokemon_rationale_permission),
+                rationale = stringResource(com.example.kmp_base.core.R.string.pokemon_rationale_permission),
                 goToAppSettings = { context.goToAppSettings() },
                 onGranted = { viewModel.getFirst15Pokemons() },
                 mustRequire = true
@@ -104,7 +104,7 @@ fun HomeScreen(onSearchClick: () -> Unit = {}) {
 
             else -> {
                 BaseLottieAnimation(
-                    res = com.example.core.R.raw.pokeball_anim,
+                    res = com.example.kmp_base.core.R.raw.pokeball_anim,
                     modifier = Modifier.size(200.dp)
                 )
             }

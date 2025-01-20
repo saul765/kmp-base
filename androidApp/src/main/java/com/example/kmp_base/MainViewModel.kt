@@ -1,9 +1,9 @@
 package com.example.kmp_base
 
 import androidx.lifecycle.viewModelScope
-import com.example.composebase.core.network.INetworkMonitor
-import com.example.core.base.viewmodel.BaseViewModel
-import com.example.core.model.AppUiState
+import com.example.kmp_base.core.base.viewmodel.BaseViewModel
+import com.example.kmp_base.core.model.AppUiState
+import com.example.kmp_base.core.network.INetworkMonitor
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

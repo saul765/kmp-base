@@ -7,9 +7,9 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
+import com.example.kmp_base.core.model.navigation_routes.HomeBaseRoute
+import com.example.kmp_base.core.model.navigation_routes.HomeRoute
 import com.example.kmp_base.feature.home.HomeScreen
-import com.example.core.model.navigation_routes.HomeBaseRoute
-import com.example.core.model.navigation_routes.HomeRoute
 
 
 fun NavController.navigateToHome(navOptions: NavOptions? = null) =

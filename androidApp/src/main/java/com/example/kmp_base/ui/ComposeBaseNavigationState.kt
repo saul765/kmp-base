@@ -8,7 +8,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
-import com.example.core.model.enums.TopLevelDestination
+import com.example.kmp_base.core.model.enums.TopLevelDestination
 import com.example.kmp_base.feature.home.navigation.navigateToHome
 import com.example.kmp_base.feature.settings.navigation.navigateToSettings
 

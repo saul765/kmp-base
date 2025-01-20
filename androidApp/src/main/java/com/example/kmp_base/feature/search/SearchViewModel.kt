@@ -1,10 +1,10 @@
 package com.example.kmp_base.feature.search
 
 import androidx.lifecycle.viewModelScope
-import com.example.core.EMPTY_CHARACTER
-import com.example.core.base.viewmodel.BaseSearchViewModel
-import com.example.core.data.UIStateStatus
-import com.example.core.model.uiModel.PokemonItemUIModel
+import com.example.kmp_base.core.EMPTY_CHARACTER
+import com.example.kmp_base.core.base.viewmodel.BaseSearchViewModel
+import com.example.kmp_base.core.data.UIStateStatus
+import com.example.kmp_base.core.model.uiModel.PokemonItemUIModel
 import com.example.kmp_base.feature.home.state.HomeUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

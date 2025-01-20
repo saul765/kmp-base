@@ -48,7 +48,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.kmp_base"
+    namespace = "com.example.kmp_base.shared"
     compileSdk = 35
     defaultConfig {
         minSdk = 24

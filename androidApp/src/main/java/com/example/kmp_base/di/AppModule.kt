@@ -1,6 +1,6 @@
 package com.example.kmp_base.di
 
-import com.example.core.di.CoreModule
+import com.example.kmp_base.core.di.CoreModule
 
 object AppModule {
 

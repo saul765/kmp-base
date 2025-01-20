@@ -23,10 +23,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavDestination.Companion.hierarchy
-import com.example.core.design_system.BottomBarScaffold
-import com.example.core.design_system.SnackBar
-import com.example.core.model.AppUiState
 import com.example.kmp_base.R
+import com.example.kmp_base.core.design_system.BottomBarScaffold
+import com.example.kmp_base.core.design_system.SnackBar
+import com.example.kmp_base.core.model.AppUiState
 import com.example.kmp_base.ui.navigation.ComposeBaseAppNavHost
 import kotlin.reflect.KClass
 
@@ -36,7 +36,7 @@ fun ComposeBaseApp(navigationState: ComposeBaseNavigationState, uiState: AppUiSt
 
     val snackBarHostState = remember { SnackbarHostState() }
 
-    val offlineModeMessage = stringResource(R.string.offline_mode_message)
+    val offlineModeMessage = stringResource(com.example.kmp_base.core.R.string.offline_mode_message)
 
     val onlineModeMessage = stringResource(R.string.online_mode_message)
 

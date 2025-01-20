@@ -119,7 +119,7 @@ fun getGradleLocalProperties() = Properties().apply {
 }
 
 dependencies {
-    implementation(project(":androidApp:core"))
+    implementation(project(":core"))
     implementation(projects.shared)
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling.preview)

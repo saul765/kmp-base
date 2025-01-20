@@ -8,12 +8,12 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
-import com.example.kmp_base.ui.ComposeBaseNavigationState
-import com.example.core.model.navigation_routes.HomeBaseRoute
+import com.example.kmp_base.core.model.navigation_routes.HomeBaseRoute
 import com.example.kmp_base.feature.home.navigation.homeGraph
 import com.example.kmp_base.feature.search.navigation.navigateToSearch
 import com.example.kmp_base.feature.search.navigation.searchGraph
 import com.example.kmp_base.feature.settings.navigation.settingsGraph
+import com.example.kmp_base.ui.ComposeBaseNavigationState
 
 
 @RequiresApi(Build.VERSION_CODES.TIRAMISU)

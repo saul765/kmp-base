@@ -9,9 +9,9 @@ import androidx.annotation.RequiresApi
 import androidx.compose.runtime.getValue
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.example.composebase.ui.theme.ComposeBaseTheme
 import com.example.kmp_base.ui.ComposeBaseApp
 import com.example.kmp_base.ui.rememberComposeBaseNavigationState
-import com.example.composebase.ui.theme.ComposeBaseTheme
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.compose.KoinContext
 

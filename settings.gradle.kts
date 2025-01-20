@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "kmp-base"
-include(":androidApp", ":androidApp:core", ":shared")
+include(":androidApp", ":shared", "core")
